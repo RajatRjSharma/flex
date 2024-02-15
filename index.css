@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #e0fbfc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.subcontainer1 {
+  display: flex;
+  padding-bottom: 10%;
+  gap: 20px;
+  font-size: 30px;
+}
+
+.subcontainer2 {
+  height: 50%;
+  width: 50%;
+  background-color: #98c1d9;
+  display: flex;
+  border: 2px solid #2f3e46;
+  border-radius: 10px;
+}
+
+.item {
+  height: 25%;
+  width: 25%;
+  background-color: #3d5a80;
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: 2px solid #2f3e46;
+  border-radius: 10px;
+}
+
+select option {
+  font-size: 1.2em;
+}
+
+select {
+  width: 150px;
+  height: 25px;
+  font-size: 17px;
+}
